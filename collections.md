@@ -1,5 +1,4 @@
-![icon][png]
-[png]:java-collection-hierarchy.png
+![icon][java-collection-hierarchy.png]
 
 - Первоначальный размер ArrayList = 10
 - Метод trimToSize() - сжатие листа до кол-ва элементов
