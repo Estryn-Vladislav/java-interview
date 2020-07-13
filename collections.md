@@ -1,3 +1,4 @@
+![icon][png]
 [png]:java-collection-hierarchy.png
 
 - Первоначальный размер ArrayList = 10
