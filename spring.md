@@ -11,7 +11,12 @@
 @Profile тоже включает @Conditional и в зависимости от профиля загружает нужные конфиги
 
 Так, например, JpaRepositoriesAutoConfiguration загружается тогда, когда у нас есть класс JpaRepository, DataSource, Property 'spring.data.jpa.repositories'
-------------------------------------------------------------------------
+ 
+-------------------------------------------------------
+
 JPA
 
-Repository
+Repository<T,ID> - базовый интерфейс JPA, в котором нет методов
+CrudRepository<T,ID>
+PagingAndSortingRepository<T,ID>
+JpaRepository<T,ID>
