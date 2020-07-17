@@ -9,11 +9,11 @@
 Каждый уровень включает себя и все уровни ниже.
 
 Пример записи в файлы:
-handlers= java.util.logging.FileHandler
-java.util.logging.FileHandler.pattern = application_log.txt
-java.util.logging.FileHandler.limit = 50 (Размер в байтах. В реальной жизни надо скорее указывать не меньше мегабайта)
-java.util.logging.FileHandler.count = 7
-java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
+- handlers= java.util.logging.FileHandler
+- java.util.logging.FileHandler.pattern = application_log.txt
+- java.util.logging.FileHandler.limit = 50 (Размер в байтах. В реальной жизни надо скорее указывать не меньше мегабайта)
+- java.util.logging.FileHandler.count = 7
+- java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
 
 Конфигурирование:
 LogManager.getLogManager().readConfiguration(MainApplicationEntryClass.class.getResourceAsStream("/logging.properties"));
