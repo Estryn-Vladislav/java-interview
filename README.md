@@ -5,3 +5,4 @@
 + [Логи](log.md#Логи)
 + [Тестирование](test.md#Тестирование)
 + [Spring](spring.md#Spring)
++ [Память](memory.md#Память)
