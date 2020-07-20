@@ -28,7 +28,7 @@ JPA
 - PagingAndSortingRepository<T,ID>
 - JpaRepository<T,ID>
 -------------------------------------------------------
-1) XmlBeanDefinitionReader - создаёт объекты BeanDefinition (map<BeanId, BeanProperties>) из описания xml конфига
+1) XmlBeanDefinitionReader - создаёт объекты BeanDefinition (Map<BeanId, BeanProperties>) из описания xml конфига
 2) BeanFactory создает из всех BeanDefinitions бины и складывает в IoC Container (только Singleton)
 3) Prototype создается только в тот момент, когда он вызывается, контейнер не хранит прототайпы. Дестрой метод не вызывается для прототайпов
-4) BeanPostProcessor - настройка бинов в момент создания, до Container (pattern chain of responsibility)
+4) BeanPostProcessor - настройка бинов в момент создания, до попадания в IoC (pattern: chain of responsibility)
