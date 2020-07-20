@@ -22,7 +22,7 @@
 
 JPA
 
-Repository<T,ID> - базовый интерфейс JPA, в котором нет методов
-CrudRepository<T,ID>
-PagingAndSortingRepository<T,ID>
-JpaRepository<T,ID>
+- Repository<T,ID> - базовый интерфейс JPA, в котором нет методов
+- CrudRepository<T,ID>
+- PagingAndSortingRepository<T,ID>
+- JpaRepository<T,ID>
