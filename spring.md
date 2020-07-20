@@ -20,7 +20,6 @@ Spring Bean, Spring WEB, Spring MVC, Spring Data, Spring Security, Spring AOP, S
 - @Autowired -использует AutowiredAnnotationBeanPostProcessor для инъекции (пакет спринга), есть required атрибут, есть @Qualifier. По умолчанию: singleton
 - @Inject - использует AutowiredAnnotationBeanPostProcessor для инъекции (JSR-330 - стандарт инъекций Java), есть @Named. По умолчанию: prototype
 - @Resource - использует CommonAnnotationBeanPostProcessor для инъекции
-
 -------------------------------------------------------
 JPA
 
@@ -28,3 +27,8 @@ JPA
 - CrudRepository<T,ID>
 - PagingAndSortingRepository<T,ID>
 - JpaRepository<T,ID>
+-------------------------------------------------------
+1) XmlBeanDefinitionReader - создаёт объекты BeanDefinition (map<BeanId, BeanProperties>) из описания xml конфига
+2) BeanFactory создает из всех BeanDefinitions бины и складывает в IoC Container (только Singleton)
+3) Prototype создается только в тот момент, когда он вызывается, контейнер не хранит прототайпы. Дестрой метод не вызывается для прототайпов
+4) BeanPostProcessor - настройка бинов в момент создания, до Container (pattern chain of responsibility)
