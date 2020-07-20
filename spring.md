@@ -33,3 +33,4 @@ JPA
 3) Prototype создается только в тот момент, когда он вызывается, контейнер не хранит прототайпы. Дестрой метод не вызывается для прототайпов
 4) BeanPostProcessor - настройка бинов в момент создания, до попадания в IoC (pattern: chain of responsibility)
 5) @PostConstruct работает до того как настроились все прокси, после PostProccessBeforeInitialization, но до PostProccessAfterInitialization
+6) ApplicationListener - позволяет настроить контекст после поднятия, после PostConstruct после создания всех proxy
