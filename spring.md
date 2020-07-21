@@ -23,6 +23,9 @@ Spring Bean, Spring WEB, Spring MVC, Spring Data, Spring Security, Spring AOP, S
 -------------------------------------------------------
 JPA
 
+Стандартная настройка:
+DriverManagerDataSouurce, LocalContainerEntityManagerFactoryBean, JpaTransactionManager
+
 - Repository<T,ID> - базовый интерфейс JPA, в котором нет методов
 - CrudRepository<T,ID>
 - PagingAndSortingRepository<T,ID>
