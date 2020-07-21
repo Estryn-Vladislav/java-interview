@@ -1,4 +1,5 @@
 + [Логи](log.md#Логи)
++ [REST](rest.md#REST)
 + [Mongo](mongo.md#Mongo)
 + [БД/SQL](bd.md#БД/SQL)
 + [Spring](spring.md#Spring)
