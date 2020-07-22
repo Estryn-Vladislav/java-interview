@@ -1,7 +1,7 @@
 + [Логи](log.md#Логи)
 + [REST](rest.md#REST)
 + [Mongo](mongo.md#Mongo)
-+ [БД/SQL](bd.md#БД/SQL)
++ [Наследование БД, N+1](bd-extension-n+1.md#Наследование БД, N+1)
 + [Spring](spring.md#Spring)
 + [Память](memory.md#Память)
 + [Паттерны](pattern.md#Паттерны)
