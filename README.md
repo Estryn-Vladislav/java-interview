@@ -9,4 +9,3 @@
 + [Алгоритмы](algorithms.md#Алгоритмы)
 + [Тестирование](test.md#Тестирование)
 + [Микросервисы](mic.md#Микросервисы)
-+ [@Transactional](transactions.md#@Transactional)
