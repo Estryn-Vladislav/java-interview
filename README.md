@@ -10,4 +10,4 @@
 + [Тестирование](test.md#Тестирование)
 + [Микросервисы](mic.md#Микросервисы)
 + [Cloud](cloud.md#Cloud)
-+ [JVM, SOLID, ACID](jvm, solid, acid#jvm, solid, acid)
++ [JVM, SOLID, ACID](jvm, solid, acid.md#jvm, solid, acid)
