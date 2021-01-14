@@ -11,3 +11,4 @@
 + [Микросервисы](mic.md#Микросервисы)
 + [Cloud](cloud.md#Cloud)
 + [JVM,SOLID,ACID](jvm_solid_acid.md#jvm_solid_acid)
++ [Java8](Java8.md#Java8)
